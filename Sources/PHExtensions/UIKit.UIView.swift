@@ -12,6 +12,7 @@ public extension UIView {
   
   final func squircle(radius: CGFloat = 10, masksToBounds: Bool = true) {
     layer.cornerCurve = .continuous
+    layer.cornerRadius = radius
     layer.masksToBounds = masksToBounds
   }
   
